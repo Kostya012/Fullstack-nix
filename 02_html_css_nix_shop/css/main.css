@@ -25,11 +25,10 @@ main {
 }
 
 .gold {
-  display: block;
   width: 100%;
+  height: fit-content;
   font-family: Kelson Sans RU, Arial, Helvetica, sans-serif;
   text-align: center;
-  font-weight: 600;
   background-color: #b69b00;
   color: white;
   padding: 5px 0;
@@ -56,12 +55,32 @@ main {
   width: 84%;
   background-color: #fdfff3;
   text-align: center;
+  /* justify-content: center; */
+}
+
+.prod20 {
+  display: inline-block;
+  position: relative;
+  width: 20%;
 }
 
 .prod30 {
   display: inline-block;
   position: relative;
   width: 33.33%;
+}
+
+.prod50 {
+  display: inline-block;
+  position: relative;
+  width: 50%;
+}
+
+.prod100 {
+  display: inline-block;
+  width: 100%;
+  margin: 10px auto;
+  text-align: center;
 }
 
 .wrapper-product {
@@ -81,6 +100,32 @@ main {
   display: block;
   font-size: 1.1em;
   padding: 20px 0 70px;
+}
+
+.title-product-details {
+  display: block;
+  font-size: 1.8em;
+  font-weight: 600;
+  padding: 20px 0;
+}
+
+.condition {
+  padding-left: 10px;
+  text-align: left;
+}
+
+.condition p:nth-child(3) {
+  padding-bottom: 70px;
+}
+
+.condition-p {
+  padding: 10px 0;
+  font-size: 1.3em;
+  text-indent: 1.5em;
+}
+
+.bold {
+  font-weight: 600;
 }
 
 .add-to-cart {
@@ -106,13 +151,74 @@ main {
   width: 98%;
   margin: 5px auto;
 }
+.img-logo-150 {
+  display: inline-block;
+  width: 150px;
+  margin: 5px auto;
+}
+
+.total {
+  display: flex;
+  margin: 20px 0;
+  padding: 10px;
+  font-size: 1.7em;
+  background-color: #cccbcb;
+  justify-content: space-between;
+  max-width: 500px;
+}
 
 .add-to-cart img {
   display: inline-block;
   width: 30px;
 }
 
+.pagination {
+  width: 100%;
+}
+.pagination-ul {
+  display: inline-block;
+  margin-bottom: 25px;
+  margin-top: 0;
+  padding-left: 15px;
+  margin: 20px 0;
+  border-radius: 4px;
+  width: 100%;
+}
 
+.pagination li {
+  display: inline;
+  padding: 5px 10px;
+  font-size: 1.3em;
+}
+
+.pagination li:hover {
+  background-color: #fab397;
+}
+
+.pagination-active {
+  background-color: #fab397;
+}
+
+/* Cart */
+
+.inline-div {
+  display: inline-block;
+}
+
+/* FORM */
+
+.login-form,
+.signup-form {
+  display: block;
+  width: 100%;
+}
+
+.form {
+  display: inline-block;
+  /* flex-basis: auto;
+  flex-direction: column; */
+  text-align: left;
+}
 
 .back-to-top {
   display: block;
