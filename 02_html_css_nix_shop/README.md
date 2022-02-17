@@ -12,7 +12,17 @@
 - подробно о товарах
 - логин
 
-### Buttons
+### Additional Information
+
+#### Validation HTML
+
+[validator.w3.org](https://validator.w3.org/)
+
+#### Validation CSS
+
+[jigsaw.w3.org](http://jigsaw.w3.org/css-validator/)
+
+#### Buttons
 
 [getcssscan.com](https://getcssscan.com/css-buttons-examples)
 
